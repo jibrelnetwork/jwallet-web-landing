@@ -8,8 +8,9 @@
   "author": "Jibrel Network",
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
-    "compile": "gulp",
-    "compile:prod": "gulp prod",
+    "compile": "./node_modules/.bin/gulp",
+    "compile:prod": "./node_modules/.bin/gulp prod",
+    "watch": "./node_modules/.bin/gulp && ./node_modules/.bin/gulp watch",
     "start": "node server.js"
   },
   "devDependencies": {
