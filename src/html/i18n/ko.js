@@ -29,7 +29,7 @@ module.exports = {
       href: '/ko.html',
       title: 'Korean',
     }],
-    jWalletLink: '/jwallet?lang=ko',
+    jWalletLink: 'https://app.jwallet.network?lang=ko',
     jWalletButtonTitle: 'jWallet 사용하기',
     menuButtonTitle: 'Menu',
   },
@@ -80,7 +80,7 @@ module.exports = {
     subtitle: '미래의 기술들이 실현되고 있습니다. 이동 중에 토큰을 관리하고 모니터하세요',
     items: [{
       title: '웹 버전 사용하기',
-      href: '/jwallet?lang=ko',
+      href: 'https://app.jwallet.network?lang=ko',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
     }, {
