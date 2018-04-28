@@ -29,7 +29,7 @@ module.exports = {
       href: '/ko.html',
       title: 'Korean',
     }],
-    jWalletLink: 'https://app.jwallet.network',
+    jWalletLink: '/jwallet',
     jWalletButtonTitle: 'Try jWallet',
     menuButtonTitle: 'Menu',
   },
@@ -80,7 +80,7 @@ module.exports = {
     subtitle: 'Manage all your digital assets easily and securely',
     items: [{
       title: 'Open Web App',
-      href: 'https://app.jwallet.network',
+      href: '/jwallet',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
     }, {
