@@ -4,9 +4,9 @@ module.exports = {
     title: 'English',
   },
   meta: {
-    title: 'jWallet by the Jibrel Network',
-    description: 'The jWallet is the first institutional-grade Ethereum wallet. It works across desktop and mobile devices, and private keys never leave your device. The jWallet comes preconfigured to work with your favorite tokens.',
-    name: 'jWallet by the Jibrel Network',
+    title: 'Jwallet by the Jibrel Network',
+    description: 'The Jwallet is the first institutional-grade Ethereum wallet. It works across desktop and mobile devices, and private keys never leave your device. The Jwallet comes preconfigured to work with your favorite tokens.',
+    name: 'Jwallet by the Jibrel Network',
   },
   header: {
     items: [{
@@ -30,7 +30,7 @@ module.exports = {
       title: 'Korean',
     }],
     jWalletLink: '/jwallet',
-    jWalletButtonTitle: 'Try jWallet',
+    jWalletButtonTitle: 'Try Jwallet',
     menuButtonTitle: 'Menu',
   },
   start: {
@@ -43,19 +43,19 @@ module.exports = {
   benefits: {
     items: [{
       title: 'Anywhere, anytime',
-      description: 'The jWallet is mobile friendly, so you can access your tokens everywhere you go. The web-version works on desktop and mobile browsers.',
+      description: 'The Jwallet is mobile friendly, so you can access your tokens everywhere you go. The web-version works on desktop and mobile browsers.',
     }, {
       title: 'The power of privacy',
       description: 'All user data, including imported or generated private keys are stored locally, meaning your private keys, remain just that… private.',
     }, {
       title: 'Made by geeks',
-      description: 'We’ve done the complicated stuff so you won’t have to. the jWallet introduces new features to Ethereum, like a standard URI scheme and QR code generator.',
+      description: 'We’ve done the complicated stuff so you won’t have to. the Jwallet introduces new features to Ethereum, like a standard URI scheme and QR code generator.',
     }],
   },
   features: {
     items: [{
       title: 'Stocked and Loaded',
-      subtitle: 'The jWallet is preconfigured to be compatible with the most popular ERC-20 tokens, straight out of the box, no configuration necessary',
+      subtitle: 'The Jwallet is preconfigured to be compatible with the most popular ERC-20 tokens, straight out of the box, no configuration necessary',
       direction: 'left',
     }, {
       title: 'Bring Your Own Token (BYOT)',
@@ -63,7 +63,7 @@ module.exports = {
       direction: 'right',
     }, {
       title: 'Private Keys Always Stay Private',
-      subtitle: 'With the jWallet, all sensitive data never leaves your device. Your private keys are never shared with anyone, including us!',
+      subtitle: 'With the Jwallet, all sensitive data never leaves your device. Your private keys are never shared with anyone, including us!',
       direction: 'left',
     }, {
       title: 'Banking-grade Tracking Tools',
@@ -71,7 +71,7 @@ module.exports = {
       direction: 'right',
     }, {
       title: 'Multi-device support',
-      subtitle: 'The web version of the jWallet works across devices, with native iOS and Android versions coming soon',
+      subtitle: 'The web version of the Jwallet works across devices, with native iOS and Android versions coming soon',
       direction: 'left',
     }],
   },
@@ -130,7 +130,7 @@ module.exports = {
       title: 'Slack',
     }],
     copy: [
-      '© 2017 Jibrel Network. All Rights Reserved.',
+      '© 2018 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
   },
