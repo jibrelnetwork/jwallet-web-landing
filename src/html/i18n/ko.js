@@ -4,9 +4,9 @@ module.exports = {
     title: 'Korean',
   },
   meta: {
-    title: 'jWallet by the Jibrel Network',
+    title: 'Jwallet by the Jibrel Network',
     description: '지브렐 네트워크는 화폐, 채권 및 주식과 같은 전통 금융 자산을 이더리움 블록체인을 적용한 ERC-20 토큰으로 제공합니다.',
-    name: 'jWallet by the Jibrel Network',
+    name: 'Jwallet by the Jibrel Network',
   },
   header: {
     items: [{
@@ -30,7 +30,7 @@ module.exports = {
       title: 'Korean',
     }],
     jWalletLink: '/jwallet?lang=ko',
-    jWalletButtonTitle: 'jWallet 사용하기',
+    jWalletButtonTitle: 'Jwallet 사용하기',
     menuButtonTitle: 'Menu',
   },
   start: {
@@ -43,19 +43,19 @@ module.exports = {
   benefits: {
     items: [{
       title: '언제 어디서나 사용 가능',
-      description: 'jWallet은 스마트폰으로도 사용할 수 있기 때문에 언제 어디서나 토큰에 접근할 수 있습니다. 웹 버전은 데스크탑과 모바일 브라우저 모두 사용 가능합니다.',
+      description: 'Jwallet은 스마트폰으로도 사용할 수 있기 때문에 언제 어디서나 토큰에 접근할 수 있습니다. 웹 버전은 데스크탑과 모바일 브라우저 모두 사용 가능합니다.',
     }, {
       title: '개인정보 보호',
       description: '로그인 되거나 새로 생성된 키 등을 포함한 모든 사용자 데이터는 임시적으로 저장되며 개인 키 등의 개인정보를 보호할 수 있습니다.',
     }, {
       title: '전문가에 의한 제작',
-      description: '복잡한 작업들은 전문가들이 모두 완료했기 때문에 사용자들은 복잡한 작업을 할 필요가 없습니다. jWallet은 표준 URI scheme 및 QR 코드 생성과 같은 새로운 기능들을 이더리움에 도입했습니다.',
+      description: '복잡한 작업들은 전문가들이 모두 완료했기 때문에 사용자들은 복잡한 작업을 할 필요가 없습니다. Jwallet은 표준 URI scheme 및 QR 코드 생성과 같은 새로운 기능들을 이더리움에 도입했습니다.',
     }],
   },
   features: {
     items: [{
       title: '구비 및 사용 준비 완료',
-      subtitle: 'jWallet은 모든 이더리움 및 이더리움 토큰들과 호환되도록 구성되어 있으며 별도의 환경 설정 없이 즉시 사용할 수 있습니다',
+      subtitle: 'Jwallet은 모든 이더리움 및 이더리움 토큰들과 호환되도록 구성되어 있으며 별도의 환경 설정 없이 즉시 사용할 수 있습니다',
       direction: 'left', // not translate
     }, {
       title: '나만의 토큰 추가하기',
@@ -71,7 +71,7 @@ module.exports = {
       direction: 'right', // not translate
     }, {
       title: '멀티 디바이스 지원',
-      subtitle: 'jWallet의 웹 버전은 여러 기기에서 사용이 가능하며 iOS 및 안드로이드 버전도 곧 출시됩니다',
+      subtitle: 'Jwallet의 웹 버전은 여러 기기에서 사용이 가능하며 iOS 및 안드로이드 버전도 곧 출시됩니다',
       direction: 'left', // not translate
     }],
   },
@@ -130,7 +130,7 @@ module.exports = {
       title: '슬랙',
     }],
     copy: [
-      '© 2017 Jibrel Network. All Rights Reserved.',
+      '© 2018 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
   },
