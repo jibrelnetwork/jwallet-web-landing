@@ -89,9 +89,9 @@ module.exports = {
       class: 'ios button soon', // not translate
       id: 'try-jwallet-ios-app', // not translate
     }, {
-      title: 'Android 버전 출시 예정',
-      href: '#',
-      class: 'android button soon', // not translate
+      title: '구글 플레이',
+      href: 'https://play.google.com/store/apps/details?id=com.jibrel.jwallet&hl=ko',
+      class: 'android button', // not translate
       id: 'try-jwallet-android-app', // not translate
     }],
   },
