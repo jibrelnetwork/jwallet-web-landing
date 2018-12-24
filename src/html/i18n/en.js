@@ -84,9 +84,9 @@ module.exports = {
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
     }, {
-      title: 'iOS Coming soon',
-      href: '#',
-      class: 'ios button soon', // not translate
+      title: 'App Store',
+      href: 'https://itunes.apple.com/app/jwallet/id1414196949?mt=8',
+      class: 'ios button', // not translate
       id: 'try-jwallet-ios-app', // not translate
     }, {
       title: 'Google Play',
