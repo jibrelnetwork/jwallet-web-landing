@@ -115,20 +115,16 @@ module.exports = {
       type: 'medium', // not translate
       title: '미디엄',
     }, {
-      href: 'https://www.youtube.com/watch?v=LBMyd7Ql8QU',
+      href: 'https://www.youtube.com/channel/UChRHMyaETb7M9OwfQQodh7g',
       type: 'youtube', // not translate
       title: '유튜브',
     }, {
       href: 'https://t.me/jibrel_network',
       type: 'telegram', // not translate
       title: '텔레그램',
-    }, {
-      href: 'https://jibrelnetwork.slack.com',
-      type: 'slack', // not translate
-      title: '슬랙',
     }],
     copy: [
-      '© 2018 Jibrel Network. All Rights Reserved.',
+      '© 2019 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
     attributions: [

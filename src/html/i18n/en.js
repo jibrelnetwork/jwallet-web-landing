@@ -115,20 +115,16 @@ module.exports = {
       type: 'medium',
       title: 'Medium',
     }, {
-      href: 'https://www.youtube.com/watch?v=LBMyd7Ql8QU',
+      href: 'https://www.youtube.com/channel/UChRHMyaETb7M9OwfQQodh7g',
       type: 'youtube',
       title: 'Youtube',
     }, {
       href: 'https://t.me/jibrel_network',
       type: 'telegram',
       title: 'Telegram',
-    }, {
-      href: 'https://jibrelnetwork.slack.com',
-      type: 'slack',
-      title: 'Slack',
     }],
     copy: [
-      '© 2018 Jibrel Network. All Rights Reserved.',
+      '© 2019 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
     attributions: [
