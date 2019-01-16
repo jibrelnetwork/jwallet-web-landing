@@ -131,6 +131,10 @@ module.exports = {
       '© 2018 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
+    attributions: [
+      'Apple 및 Apple 로고 미국과 다른 국가 및 지역에 등록된 Apple Inc.의 상표이며, App Store는 Apple Inc.의 서비스 상표입니다. IOS는 미국 및 다른 국가에 등록된 Cisco의 상표 또는 등록상표이며, 라이선스 계약하에 사용되고 있습니다.',
+      'Google Play, Google Play 로고는 및 Android는 Google LLC의 상표입니다.'
+    ],
   },
   timestamp: Date.now(),
 }
