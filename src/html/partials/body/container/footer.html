@@ -12,5 +12,10 @@
             </li>{% endfor %}
           </ul>
           <p class="copy">{{ footer.copy[0] }}<br />{{ footer.copy[1] }}</p>
+          {% for attribution in footer.attributions %}
+          <p class="attribution">
+            {{ attribution }}
+          </p>
+          {% endfor %}
         </div>
       </div>

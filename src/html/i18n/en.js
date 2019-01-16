@@ -71,7 +71,7 @@ module.exports = {
       direction: 'right',
     }, {
       title: 'Multi-device support',
-      subtitle: 'The web version of the Jwallet works across devices, with native iOS and Android versions coming soon',
+      subtitle: 'The web version of the Jwallet works across devices, with native iOS and Android versions',
       direction: 'left',
     }],
   },
@@ -83,17 +83,15 @@ module.exports = {
       href: '/jwallet',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
-    }, {
-      title: 'App Store',
-      href: 'https://itunes.apple.com/app/jwallet/id1414196949?mt=8',
-      class: 'ios button', // not translate
-      id: 'try-jwallet-ios-app', // not translate
-    }, {
-      title: 'Google Play',
-      href: 'https://play.google.com/store/apps/details?id=com.jibrel.jwallet',
-      class: 'android button', // not translate
-      id: 'try-jwallet-android-app', // not translate
     }],
+    android: {
+      title: 'Get it on Google Play',
+      imgsrc: 'https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png',
+    },
+    ios: {
+      title: 'Download on the App Store',
+      imgsrc: 'ios-en.svg',
+    },
   },
   footer: {
     links: [{
@@ -132,6 +130,10 @@ module.exports = {
     copy: [
       '© 2018 Jibrel Network. All Rights Reserved.',
       'Baarerstrasse 10, 6302 Zug, Switzerland',
+    ],
+    attributions: [
+      'Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.',
+      'Google Play, the Google Play logo and Android are trademarks of Google LLC.'
     ],
   },
   timestamp: Date.now(),
