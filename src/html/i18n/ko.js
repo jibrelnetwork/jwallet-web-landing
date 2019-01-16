@@ -83,16 +83,6 @@ module.exports = {
       href: '/jwallet?lang=ko',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
-    }, {
-      title: '앱 스토어',
-      href: 'https://itunes.apple.com/app/jwallet/id1414196949?mt=8',
-      class: 'ios button', // not translate
-      id: 'try-jwallet-ios-app', // not translate
-    }, {
-      title: '구글 플레이',
-      href: 'https://play.google.com/store/apps/details?id=com.jibrel.jwallet&hl=ko',
-      class: 'android button', // not translate
-      id: 'try-jwallet-android-app', // not translate
     }],
     android: {
       title: '다운로드하기 Google Play',

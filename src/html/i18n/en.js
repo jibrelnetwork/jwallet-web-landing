@@ -83,16 +83,6 @@ module.exports = {
       href: '/jwallet',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
-    }, {
-      title: 'App Store',
-      href: 'https://itunes.apple.com/app/jwallet/id1414196949?mt=8',
-      class: 'ios button', // not translate
-      id: 'try-jwallet-ios-app', // not translate
-    }, {
-      title: 'Google Play',
-      href: 'https://play.google.com/store/apps/details?id=com.jibrel.jwallet',
-      class: 'android button', // not translate
-      id: 'try-jwallet-android-app', // not translate
     }],
     android: {
       title: 'Get it on Google Play',
