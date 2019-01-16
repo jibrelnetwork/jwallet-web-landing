@@ -71,7 +71,7 @@ module.exports = {
       direction: 'right', // not translate
     }, {
       title: '멀티 디바이스 지원',
-      subtitle: 'Jwallet의 웹 버전은 여러 기기에서 사용이 가능하며 iOS 및 안드로이드 버전도 곧 출시됩니다',
+      subtitle: 'Jwallet의 웹 버전은 iOS 및 Android 버전을 포함한 여러 기기에서 사용할 수 있습니다',
       direction: 'left', // not translate
     }],
   },
@@ -94,6 +94,14 @@ module.exports = {
       class: 'android button', // not translate
       id: 'try-jwallet-android-app', // not translate
     }],
+    android: {
+      title: '다운로드하기 Google Play',
+      imgsrc: 'https://play.google.com/intl/en_gb/badges/images/generic/ko_badge_web_generic.png',
+    },
+    ios: {
+      title: 'App Store에서 다운로드 하기',
+      imgsrc: 'ios-ko.svg',
+    },
   },
   footer: {
     links: [{

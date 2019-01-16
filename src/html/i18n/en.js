@@ -71,7 +71,7 @@ module.exports = {
       direction: 'right',
     }, {
       title: 'Multi-device support',
-      subtitle: 'The web version of the Jwallet works across devices, with native iOS and Android versions coming soon',
+      subtitle: 'The web version of the Jwallet works across devices, with native iOS and Android versions',
       direction: 'left',
     }],
   },
@@ -94,6 +94,14 @@ module.exports = {
       class: 'android button', // not translate
       id: 'try-jwallet-android-app', // not translate
     }],
+    android: {
+      title: 'Get it on Google Play',
+      imgsrc: 'https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png',
+    },
+    ios: {
+      title: 'Download on the App Store',
+      imgsrc: 'ios-en.svg',
+    },
   },
   footer: {
     links: [{
