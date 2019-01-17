@@ -128,7 +128,8 @@ module.exports = {
       'Baarerstrasse 10, 6302 Zug, Switzerland',
     ],
     attributions: [
-      'Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.',
+      'Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.',
+      'IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.',
       'Google Play, the Google Play logo and Android are trademarks of Google LLC.'
     ],
   },
