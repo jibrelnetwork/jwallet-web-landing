@@ -10,15 +10,15 @@ module.exports = {
   },
   header: {
     items: [{
-      href: '#benefits',
+      href: '#benefits', // not translate
       title: '장점',
       class: 'scroll', // not translate
     }, {
-      href: '#features',
+      href: '#features', // not translate
       title: '특징',
       class: 'scroll', // not translate
     }, {
-      href: '#apps',
+      href: '#feature-5', // not translate
       title: '앱',
       class: 'scroll', // not translate
     }],

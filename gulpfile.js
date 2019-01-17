@@ -48,6 +48,12 @@ gulp.task('css', function() {
     .pipe(gulp.dest('./public/assets/css'));
 });
 
+gulp.task('copy-vendor', function() {
+  return gulp
+    .src('./src/vendor/**/*')
+    .pipe(gulp.dest('./public/assets/vendor'));
+});
+
 gulp.task('js-vendor', function() {
   return gulp
     .src(vendorScripts)
@@ -105,8 +111,9 @@ gulp.task('watch', function() {
   gulp.watch('./src/html/**/*', ['html']);
   gulp.watch('./src/less/*.less', ['css', 'css-min']);
   gulp.watch('./src/js/**/*.js', ['js', 'js-vendor', 'js-vendor-min', 'js-min']);
+  gulp.watch('./src/vendor/**/*', ['copy-vendor']);
 });
 
-gulp.task('default', ['html', 'css', 'js-vendor', 'js', 'img', 'docs']);
-gulp.task('prod', ['html', 'css-min', 'js-vendor-min', 'js-min', 'img', 'docs']);
+gulp.task('default', ['html', 'css', 'copy-vendor', 'js-vendor', 'js', 'img', 'docs']);
+gulp.task('prod', ['html', 'css-min', 'copy-vendor', 'js-vendor-min', 'js-min', 'img', 'docs']);
 gulp.task('all', ['default', 'prod']);
