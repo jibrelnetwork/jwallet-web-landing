@@ -310,12 +310,11 @@ html.active {
   padding: 0;
   transition: background 0.3s ease 0s;
   .logo {
-    margin-top: 40px;
+    margin-top: 44px;
     display: block;
     img {
       display: block;
-      height: 34px;
-      width: 155px;
+      width: 150px;
     }
   }
   li {
@@ -367,7 +366,7 @@ html.active {
     line-height: 80px;
     background-color: @blue;
     .logo {
-      margin-top: 28px;
+      margin-top: 24px;
     }
     .menu-button {
       top: 28px;
@@ -610,6 +609,11 @@ html.active {
         height: 40px;
       }
     }
+    .android img {
+      width: 152px;
+      height: auto;
+      margin: -9px;
+    }
   }
   .feature-1 {
     .img {
@@ -632,6 +636,8 @@ html.active {
     }
   }
   .feature-5 {
+    padding-top: 140px;
+    margin-top: -140px;
     .img {
       width: 310px;
       height: 460px;
@@ -640,9 +646,6 @@ html.active {
       background-image: url("../img/features/5.png");
       background-size: 310px 460px;
       top: -70px;
-    }
-    .links {
-      display: none;
     }
   }
 }
@@ -760,6 +763,15 @@ html.active {
   p {
     opacity: 0.7;
     line-height: 2;
+  }
+  .copy + .attribution {
+    margin-top: 48px;
+  }
+  .attribution {
+    opacity: 0.4;
+    line-height: 15px;
+    font-size: 11px;
+    padding: 0;
   }
 }
 
@@ -973,8 +985,6 @@ html.active {
     .links {
       margin-bottom: 40px;
       li {
-        display: block;
-        float: left;
         width: 25%;
         margin-bottom: 40px;
         a {
@@ -1113,6 +1123,12 @@ html.active {
       }
       .ios {
         margin-bottom: 20px;
+      }
+      .android {
+        width: 93%;
+        img {
+          margin: 0;
+        }
       }
     }
     .img {

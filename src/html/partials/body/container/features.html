@@ -2,6 +2,7 @@
         <div class="inner clear">
           {% for item in features.items %}<div
             class="row {{ item.direction }} clear feature-{{ loop.index }}"
+            id="feature-{{ loop.index }}"
           >
             <div class="col-6">
               <div class="img" data-aos="fade-down" data-aos-duration="900"></div>
@@ -14,8 +15,13 @@
               <h2>{{ item.title }}</h2>
               <p>{{ item.subtitle }}</p>
               {% if (loop.index === 5) %}<div class="links">
-                <a href="#" class="ios"><img src="assets/img/ios.svg" alt="" /></a>
-                <a href="#" class="android"><img src="assets/img/android.svg" alt="" /></a>
+                <a href="https://itunes.apple.com/app/apple-store/id1414196949?pt=1414196948&ct=jwallet_website_appstore_link&mt=8" target="_blank" rel="noopener noreferrer" class="ios" title="{{ apps.ios.title }}">
+                  <img alt="{{ apps.ios.title }}" src="assets/img/store-buttons/{{ apps.ios.imgsrc }}"/>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.jibrel.jwallet&referrer=utm_source%3Djwallet
+%26utm_medium%3Dinternal_link%26utm_content%3Dgoogle_play_link%26utm_campaign%3Djibrel_projects_promo" target="_blank" rel="noopener noreferrer" class="android" title="{{ apps.android.title }}">
+                  <img alt="{{ apps.android.title }}" src="{{ apps.android.imgsrc }}"/>
+                </a>
               </div>{% endif %}
             </div>
           </div>{% endfor %}
