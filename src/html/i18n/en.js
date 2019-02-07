@@ -49,7 +49,7 @@ module.exports = {
       description: 'All user data, including imported or generated private keys are stored locally, meaning your private keys, remain just that… private.',
     }, {
       title: 'Made by geeks',
-      description: 'We’ve done the complicated stuff so you won’t have to. the Jwallet introduces new features to Ethereum, like a standard URI scheme and QR code generator.',
+      description: 'We’ve done the complicated stuff so you won’t have to. The Jwallet introduces new features to Ethereum, like a standard URI scheme and QR code generator.',
     }],
   },
   features: {
