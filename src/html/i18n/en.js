@@ -27,7 +27,7 @@ module.exports = {
       title: 'English',
     }, {
       href: '/ko.html',
-      title: 'Korean',
+      title: '한국어',
     }],
     jWalletLink: '/jwallet',
     jWalletButtonTitle: 'Try Jwallet',
