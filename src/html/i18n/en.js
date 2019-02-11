@@ -80,7 +80,7 @@ module.exports = {
     subtitle: 'Manage all your digital assets easily and securely',
     items: [{
       title: 'Open Web App',
-      href: '/jwallet',
+      href: 'https://app.jwallet.network/',
       class: 'web button', // not translate
       id: 'try-jwallet-web-app', // not translate
     }],
