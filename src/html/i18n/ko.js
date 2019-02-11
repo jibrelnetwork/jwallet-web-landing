@@ -29,7 +29,7 @@ module.exports = {
       href: '/ko.html',
       title: 'Korean',
     }],
-    jWalletLink: '/jwallet?lang=ko',
+    jWalletLink: 'https://app.jwallet.network/?lang=ko',
     jWalletButtonTitle: 'Jwallet 사용하기',
     menuButtonTitle: 'Menu',
   },
