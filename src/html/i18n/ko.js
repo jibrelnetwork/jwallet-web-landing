@@ -1,7 +1,7 @@
 module.exports = {
   language: {
     code: 'ko',
-    title: 'Korean',
+    title: '한국어', // not translate
   },
   meta: {
     title: 'Jwallet by the Jibrel Network',
@@ -24,10 +24,10 @@ module.exports = {
     }],
     languages: [{
       href: '/',
-      title: 'English',
+      title: 'English', // not translate
     }, {
       href: '/ko.html',
-      title: 'Korean',
+      title: '한국어', // not translate
     }],
     jWalletLink: 'https://app.jwallet.network/?lang=ko',
     jWalletButtonTitle: 'Jwallet 사용하기',
