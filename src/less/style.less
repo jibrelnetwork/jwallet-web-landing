@@ -1066,6 +1066,13 @@ html.active {
         height: auto;
       }
     }
+    .ios,
+    .android {
+      display: none;
+      &.-mobile-view {
+        display: block;
+      }
+    }
     .text {
       padding-top: 50px;
       padding-bottom: 230px;
@@ -1158,15 +1165,27 @@ html.active {
       }
       .ios {
         margin-bottom: 20px;
+        display: none;
+        &.-mobile-view {
+          display: block;
+        }
       }
       .android {
         width: 93%;
+        display: none;
+        &.-mobile-view {
+          display: block;
+        }
         img {
           margin: 0;
         }
       }
       .apk {
         text-align: center;
+        display: none;
+        &.-mobile-view {
+          display: block;
+        }
       }
     }
     .img {
