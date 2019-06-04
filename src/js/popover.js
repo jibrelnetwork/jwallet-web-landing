@@ -31,6 +31,10 @@
   }
 
   function openPopover(id) {
+    if ($(id).hasClass('open')) {
+      closePopover(id)
+      return
+    }
     $(id).addClass('opening');
 
     // need some delay to show opening animation

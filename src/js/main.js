@@ -109,4 +109,5 @@ $(document).ready(function() {
 
     // Popover
     initPopover({ id: 'language-popover' });
+    initPopover({ id: 'support-popover' });
 });
