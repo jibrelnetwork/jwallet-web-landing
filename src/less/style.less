@@ -14,6 +14,7 @@
 @purple: #AA00FF;
 @gradient: linear-gradient(to top left, @blue, @hard-blue);
 @gradient-big: linear-gradient(to top left, @hard-blue, @light-blue);
+@gradient-header: linear-gradient(112.26deg, #0933AF 0%, #1F5AD9 100%);
 @line-bg: rgba(5,116,235,0.1);
 @font: 'Open Sans', Arial, sans-serif;
 
@@ -320,7 +321,7 @@ html.active {
   li {
     display: inline-block;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 40px;
     transition: none;
     &:first-child {
       margin-left: 0;
@@ -372,10 +373,6 @@ html.active {
       top: 28px;
     }
   }
-}
-
-.active .header {
-  background-color: @hard-blue;
 }
 
 .start {
@@ -895,10 +892,30 @@ html.active {
 }
 
 @media only screen and (max-width: 768px) {
+  .active .header {
+    &::before {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  }
   .header {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     overflow: visible;
+    &::before {
+      content: '';
+      position: fixed;
+      top: -1%;
+      left: -1%;
+      height: 102vh;
+      width: 102%;
+      background-image: @gradient-header;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.3s ease 0s, visibility 0.3s ease 0s;
+    }
     .menu-button {
       display: block;
       z-index: 1000;
@@ -910,7 +927,6 @@ html.active {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: @light-blue;
       padding: 30px;
       z-index: 100;
       li {
@@ -924,11 +940,7 @@ html.active {
         }
         &:last-child {
           margin-top: 30px;
-          a {
-            display: block;
-            height: 50px;
-            border-radius: 25px;
-          }
+          display: none;
         }
       }
       &.active {
@@ -1353,6 +1365,7 @@ html.active {
       margin-bottom: 20px;
       font-size: 14px;
       cursor: pointer;
+      white-space: nowrap;
 
       a {
         color: @blue;
@@ -1405,6 +1418,39 @@ html.active {
   }
 
   @media only screen and (max-width: 768px) {
+    .support-popover {
+      .popover-title {
+        display: none;
+      }
+      .popover {
+        position: static;
+        background-color: transparent;
+        border-width: 0;
+        opacity: 1;
+        box-shadow: none;
+        display: block;
+      }
+    }
+    .support-popover {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      .popover-content {
+        padding: 0;
+        text-align: center
+      }
+
+      .popover-item { 
+        margin-bottom: 0; 
+        a {
+          &,
+          &:hover {
+            color: @white;
+            font-weight: 600;
+          }
+        }
+      }
+    }
     .language-popover {
       max-height: 40px;
 
