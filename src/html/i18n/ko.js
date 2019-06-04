@@ -93,8 +93,8 @@ module.exports = {
       imgsrc: 'ios-ko.svg',
     },
     apk: {
-      txt: 'If you can’t access Google Play Market,',
-      linkTxt: 'download .apk by direct link here'
+      txt: 'Google Play 스토어에 들어갈 수 없다면 제공된 ',
+      linkTxt: '링크를 통해 .apk 파일을 다운받으세요.'
     }
   },
   footer: {
