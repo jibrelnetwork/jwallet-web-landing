@@ -10,16 +10,16 @@ module.exports = {
   },
   header: {
     support: {
-      title: 'Support',
+      title: '지원',
       items: [{
         href: 'https://jibrel.zendesk.com/hc/en-us/requests/new', // not translate
-        title: 'Contact Support',
+        title: '고객지원',
       }, {
         href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001171933-Jwallet-Mobile', // not translate
-        title: 'Mobile App FAQ',
+        title: '모바일 앱 FAQ',
       }, {
         href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001530773-Jwallet-Web', // not translate
-        title: 'Web App FAQ',
+        title: '웹 앱 FAQ',
       }],
     },
     languages: [{
