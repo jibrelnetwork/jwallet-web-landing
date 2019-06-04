@@ -28,6 +28,7 @@ module.exports = {
     }, {
       href: '/ko.html',
       title: '한국어', // not translate
+      class: '-current', // not translate
     }],
     jWalletLink: 'https://app.jwallet.network/?lang=ko',
     jWalletButtonTitle: 'Jwallet 사용하기',

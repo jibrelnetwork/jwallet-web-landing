@@ -1452,7 +1452,7 @@ html.active {
       }
     }
     .language-popover {
-      max-height: 40px;
+      text-align: center;
 
       .popover-title .text,
       .popover-item a {
@@ -1463,8 +1463,10 @@ html.active {
       }
 
       .popover-title {
+        line-height: 50px;
         &,
         &:hover {
+          opacity: 1;
           .icon svg .a {
             fill: @white;
           }
@@ -1472,38 +1474,36 @@ html.active {
       }
 
       .popover {
-        position: relative;
-        top: -45px;
-        left: 0;
+        position: static;
+        transform: translateX(0);
         right: initial;
         background-color: transparent;
         border: none;
-        box-shadow: none;
-      }
-
-      &.opening.open .popover {
-        top: 20px;
+        box-shadow: none; 
       }
 
       &.open {
         max-height: 100px;
 
-        .popover {
-          top: -45px;
+        .icon {
+          transform: scaleY(-1)
         }
 
-        .popover-title {
-          opacity: 0;
+        .popover-overlay {
+          display: none;
         }
       }
 
       .popover-content {
-        padding: 0 20px 0 0;
+        padding: 0;
       }
 
       .popover-item {
         line-height: 40px;
         margin: 0;
+        &.-current {
+          display: none;
+        }
       }
     }
   }

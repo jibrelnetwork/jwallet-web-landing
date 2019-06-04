@@ -47,7 +47,7 @@
               <div class="popover-overlay"></div>
               <div class="popover">
                 <div class="popover-content">
-                  {% for lang in header.languages %}<div class="popover-item">
+                  {% for lang in header.languages %}<div class="popover-item {{ lang.class }}">
                     <a href="{{ lang.href }}" title="{{ lang.title }}">{{ lang.title }}</a>
                   </div>{% endfor %}
                 </div>

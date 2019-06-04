@@ -25,6 +25,7 @@ module.exports = {
     languages: [{
       href: '/',
       title: 'English', // not translate
+      class: '-current', // not translate
     }, {
       href: '/ko.html',
       title: '한국어', // not translate
