@@ -92,6 +92,10 @@ module.exports = {
       title: 'Download on the App Store',
       imgsrc: 'ios-en.svg',
     },
+    apk: {
+      txt: 'If you can’t access Google Play Market,',
+      linkTxt: 'download .apk by direct link here'
+    }
   },
   footer: {
     links: [{

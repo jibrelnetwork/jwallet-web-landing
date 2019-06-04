@@ -92,6 +92,10 @@ module.exports = {
       title: 'App Store에서 다운로드 하기',
       imgsrc: 'ios-ko.svg',
     },
+    apk: {
+      txt: 'If you can’t access Google Play Market,',
+      linkTxt: 'download .apk by direct link here'
+    }
   },
   footer: {
     links: [{
