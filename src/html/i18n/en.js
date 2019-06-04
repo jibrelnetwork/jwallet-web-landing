@@ -9,19 +9,19 @@ module.exports = {
     name: 'Jwallet by the Jibrel Network',
   },
   header: {
-    items: [{
-      href: '#benefits', // not translate
-      title: 'Benefits',
-      class: 'scroll', // not translate
-    }, {
-      href: '#features', // not translate
-      title: 'Features',
-      class: 'scroll', // not translate
-    }, {
-      href: '#feature-5', // not translate
-      title: 'Apps',
-      class: 'scroll', // not translate
-    }],
+    support: {
+      title: 'Support',
+      items: [{
+        href: 'https://jibrel.zendesk.com/hc/en-us/requests/new', // not translate
+        title: 'Contact Support',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001171933-Jwallet-Mobile', // not translate
+        title: 'Mobile App FAQ',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001530773-Jwallet-Web', // not translate
+        title: 'Web App FAQ',
+      }],
+    },
     languages: [{
       href: '/',
       title: 'English', // not translate
