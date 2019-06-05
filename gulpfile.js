@@ -15,6 +15,7 @@ var vendorScripts = [
   './src/js/vendor/aos.js',
   './src/js/vendor/wavify.js',
   './src/js/vendor/scroll.js',
+  './src/js/vendor/mobile-detect.js',
 ]
 
 var scripts = [
@@ -22,6 +23,7 @@ var scripts = [
   './src/js/main.js',
   './src/js/popover.js',
   './src/js/tokens.js',
+  './src/js/changeButtonApp.js',
 ]
 
 gulp.task('html-en', function() {

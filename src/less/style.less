@@ -412,6 +412,23 @@ html.active {
   .wave + .wave {
     z-index: 2;
   }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .ios {
+    img {
+      height: 42px;
+    }
+  }
+  .android {
+    margin-left: 6px;
+    img {
+      height: 62px;
+    }
+  }
   .device {
     position: absolute;
     z-index: 4;
@@ -610,6 +627,23 @@ html.active {
       width: 152px;
       height: auto;
       margin: -9px;
+    }
+    .apk {
+      margin-top: 24px;
+      font-size: 13px;
+      line-height: 18px;
+      span {
+        opacity: .5;
+        color: #3C3C58;
+      }
+      a {
+        margin-right: 0;
+        border-bottom: 1px solid;
+        &:hover {
+          color: #005FEA;
+          border-bottom-color: transparent;
+        }
+      }
     }
   }
   .feature-1 {
@@ -1034,7 +1068,7 @@ html.active {
     .phone {
       display: block;
       position: absolute;
-      top: 250px;
+      top: 290px;
       left: 0;
       width: 100%;
       z-index: 4;
@@ -1044,9 +1078,16 @@ html.active {
         height: auto;
       }
     }
+    .ios,
+    .android {
+      display: none;
+      &.-mobile-view {
+        display: block;
+      }
+    }
     .text {
       padding-top: 50px;
-      padding-bottom: 200px;
+      padding-bottom: 230px;
       h1 {
         font-size: 22px;
         font-weight: normal;
@@ -1081,6 +1122,7 @@ html.active {
   }
   .features {
     padding: 0 30px;
+    
     .col-6 {
       float: none;
       width: 100%;
@@ -1135,11 +1177,26 @@ html.active {
       }
       .ios {
         margin-bottom: 20px;
+        display: none;
+        &.-mobile-view {
+          display: block;
+        }
       }
       .android {
         width: 93%;
+        display: none;
+        &.-mobile-view {
+          display: block;
+        }
         img {
           margin: 0;
+        }
+      }
+      .apk {
+        text-align: center;
+        display: none;
+        &.-mobile-view {
+          display: block;
         }
       }
     }
@@ -1155,6 +1212,7 @@ html.active {
       background-size: 150px 158px;
     }
     .feature-5 {
+      padding-top: 0;
       .img {
         width: 120px;
         height: 178px;
