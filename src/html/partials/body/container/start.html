@@ -26,9 +26,14 @@
               </a>
             </div>
           </div>
-          <div class="device" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150"></div>
-          <div class="phone">
-            <img src="assets/img/phone.png" alt="" />
+          <div class="device" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+            <picture>
+              <source type="image/png" media="(min-width: 1025px)"
+                srcset="assets/img/notebook.png, assets/img/notebook@2x.png 2x">
+              <source type="image/png" media="(min-width: 601px)"
+                srcset="assets/img/tablet.png, assets/img/tablet@2x.png 2x">
+              <img src="assets/img/phone.png" srcset="assets/img/phone@2x.png 2x" alt="Jwallet web app">
+            </picture>
           </div>
         </div>
         <div class="ocean">

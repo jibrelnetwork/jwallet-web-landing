@@ -433,15 +433,13 @@ html.active {
     position: absolute;
     z-index: 4;
     top: 340px;
-    left: 50%;
-    margin-left: -450px;
-    width: 900px;
-    height: 386px;
-    background-image: url("../img/notebook.png");
-    background-size: 900px 386px;
-  }
-  .phone {
-    display: none;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    img {
+      width: 100%;
+      max-width: 694px;
+    }
   }
 }
 
@@ -885,8 +883,10 @@ html.active {
   }
   .start {
     .device {
-      background-image: url("../img/tablet@2x.png") !important;
       top: 260px;
+      img {
+        max-width: 684px;
+      }
     }
     .text {
       padding-top: 60px;
@@ -1059,23 +1059,15 @@ html.active {
   .section {
     padding-top: 80px;
     padding-bottom: 80px;
+    &.benefits {
+      padding-top: 0;
+    }
   }
   .start {
     overflow: visible;
     .device {
-      display: none;
-    }
-    .phone {
-      display: block;
-      position: absolute;
-      top: 290px;
-      left: 0;
-      width: 100%;
-      z-index: 4;
       img {
-        display: block;
-        width: 100%;
-        height: auto;
+        max-width: 280px;
       }
     }
     .ios,
@@ -1312,9 +1304,9 @@ html.active {
 
 @media (-webkit-min-device-pixel-ratio: 2) {
   .start {
-    .device {
-      background-image: url("../img/notebook@2x.png");
-    }
+    // .device {
+    //   background-image: url("../img/notebook@2x.png");
+    // }
   }
   .features {
     .feature-1 {
