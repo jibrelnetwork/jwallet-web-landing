@@ -1155,8 +1155,8 @@ html.active {
     .links {
       .ios, .android {
         display: block;
-        width: 80%;
         margin: 0 auto;
+        width: 100%;
         img {
           width: 100%;
           height: auto;
@@ -1166,12 +1166,13 @@ html.active {
       .ios {
         margin-bottom: 20px;
         display: none;
+        max-width: 188px;
         &.-mobile-view {
           display: block;
         }
       }
       .android {
-        width: 93%;
+        max-width: 220px;
         display: none;
         &.-mobile-view {
           display: block;
