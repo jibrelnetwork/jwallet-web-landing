@@ -1168,30 +1168,26 @@ html.active {
           display: block;
         }
       }
-      .ios {
-        margin-bottom: 20px;
+      .android,
+      .ios,
+      .apk {
         display: none;
-        max-width: 188px;
         &.-mobile-view {
           display: block;
         }
       }
+      .ios {
+        margin-bottom: 20px;
+        max-width: 188px;
+      }
       .android {
         max-width: 220px;
-        display: none;
-        &.-mobile-view {
-          display: block;
-        }
         img {
           margin: 0;
         }
       }
       .apk {
         text-align: center;
-        display: none;
-        &.-mobile-view {
-          display: block;
-        }
       }
     }
     .img {

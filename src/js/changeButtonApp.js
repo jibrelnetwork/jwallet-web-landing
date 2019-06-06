@@ -1,4 +1,4 @@
-$(function () {
+(function($) {
   var md = new MobileDetect(window.navigator.userAgent);
   switch (md.os()) {
     case 'iOS': viewIosBtn()
@@ -19,4 +19,4 @@ $(function () {
   function viewIosBtn() {
     $('.ios').addClass('-mobile-view')
   }
-})
+})(jQuery);
