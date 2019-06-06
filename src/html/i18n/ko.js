@@ -9,25 +9,26 @@ module.exports = {
     name: 'Jwallet by the Jibrel Network',
   },
   header: {
-    items: [{
-      href: '#benefits', // not translate
-      title: '장점',
-      class: 'scroll', // not translate
-    }, {
-      href: '#features', // not translate
-      title: '특징',
-      class: 'scroll', // not translate
-    }, {
-      href: '#feature-5', // not translate
-      title: '앱',
-      class: 'scroll', // not translate
-    }],
+    support: {
+      title: '지원',
+      items: [{
+        href: 'https://jibrel.zendesk.com/hc/en-us/requests/new', // not translate
+        title: '고객지원',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001171933-Jwallet-Mobile', // not translate
+        title: '모바일 앱 FAQ',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001530773-Jwallet-Web', // not translate
+        title: '웹 앱 FAQ',
+      }],
+    },
     languages: [{
       href: '/',
       title: 'English', // not translate
     }, {
       href: '/ko.html',
       title: '한국어', // not translate
+      class: '-current', // not translate
     }],
     jWalletLink: 'https://app.jwallet.network/?lang=ko',
     jWalletButtonTitle: 'Jwallet 사용하기',
@@ -92,6 +93,10 @@ module.exports = {
       title: 'App Store에서 다운로드 하기',
       imgsrc: 'ios-ko.svg',
     },
+    apk: {
+      txt: 'Google Play 스토어에 들어갈 수 없다면 제공된 ',
+      linkTxt: '링크를 통해 .apk 파일을 다운받으세요.'
+    }
   },
   footer: {
     links: [{
@@ -107,7 +112,7 @@ module.exports = {
       type: 'bitcointalk', // not translate
       title: '비트코인 토크',
     }, {
-      href: 'https://open.kakao.com/o/ghfXgFE',
+      href: 'https://open.kakao.com/o/gxNSV4pb',
       type: 'kakaotalk', // not translate
       title: '카카오톡',
     }, {

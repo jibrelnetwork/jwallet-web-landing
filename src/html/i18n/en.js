@@ -9,22 +9,23 @@ module.exports = {
     name: 'Jwallet by the Jibrel Network',
   },
   header: {
-    items: [{
-      href: '#benefits', // not translate
-      title: 'Benefits',
-      class: 'scroll', // not translate
-    }, {
-      href: '#features', // not translate
-      title: 'Features',
-      class: 'scroll', // not translate
-    }, {
-      href: '#feature-5', // not translate
-      title: 'Apps',
-      class: 'scroll', // not translate
-    }],
+    support: {
+      title: 'Support',
+      items: [{
+        href: 'https://jibrel.zendesk.com/hc/en-us/requests/new', // not translate
+        title: 'Contact Support',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001171933-Jwallet-Mobile', // not translate
+        title: 'Mobile App FAQ',
+      }, {
+        href: 'https://jibrel.zendesk.com/hc/en-us/categories/360001530773-Jwallet-Web', // not translate
+        title: 'Web App FAQ',
+      }],
+    },
     languages: [{
       href: '/',
       title: 'English', // not translate
+      class: '-current', // not translate
     }, {
       href: '/ko.html',
       title: '한국어', // not translate
@@ -92,6 +93,10 @@ module.exports = {
       title: 'Download on the App Store',
       imgsrc: 'ios-en.svg',
     },
+    apk: {
+      txt: 'If you can’t access Google Play Market,',
+      linkTxt: 'download .apk by direct link here'
+    }
   },
   footer: {
     links: [{
@@ -107,7 +112,7 @@ module.exports = {
       type: 'bitcointalk',
       title: 'Bitcointalk',
     }, {
-      href: 'https://open.kakao.com/o/ghfXgFE',
+      href: 'https://open.kakao.com/o/gxNSV4pb',
       type: 'kakaotalk',
       title: 'Kakaotalk',
     }, {
